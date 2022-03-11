@@ -1,8 +1,8 @@
-package com.dvsuperior.dsmovie.repositories;
+package com.devsuperior.dsmovie.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.dvsuperior.dsmovie.entities.User; 
+import com.devsuperior.dsmovie.entities.User; 
 
 public interface UserRepository extends JpaRepository<User, Long> {
 	

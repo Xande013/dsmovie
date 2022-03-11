@@ -1,4 +1,4 @@
-package com.dvsuperior.dsmovie.dto;
+package com.devsuperior.dsmovie.dto;
 
 public class ScoreDTO {
 	
