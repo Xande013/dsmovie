@@ -1,4 +1,4 @@
-import axios, {AxiosRequestConfig} from 'axios';
+import axios, { AxiosRequestConfig } from 'axios';
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Movie } from 'types/movie';
@@ -30,8 +30,9 @@ function FormCard( { movieId } : Props) {
             const email = (event.target as any).email.value;
             const score = (event.target as any).score.value;
                       
+            
             if (!validateEmail(email)) {
-                return;
+            return;
             }
 
             const config: AxiosRequestConfig = {
@@ -46,8 +47,7 @@ function FormCard( { movieId } : Props) {
             }
 
             axios(config).then(response => {
-                console.log(response.data);
-                navigate("/");
+               navigate("/");
 
             });
         }
