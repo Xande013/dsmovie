@@ -1,6 +1,6 @@
 # dsmovie
 
-💻Criação do APP feito com Spring no back end e React no front end.
+💻Criação de um APP de avaliação de filmes feito com Spring no back end e React no front end.
 
 📑Etapas do projeto: 
 
