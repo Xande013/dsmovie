@@ -1,6 +1,6 @@
 # dsmovie 👉 https://22dsmovie.netlify.app/
 
-💻Criação de um APP de avaliações de filmes feito com Spring no back end e React no front end.
+💻APP feito com Spring no back end e React no front end.
 
 📑Etapas do projeto: 
 
